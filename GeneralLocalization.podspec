@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source   = { :git => "https://github.com/nahlam/GeneralLocalization.git", :tag => s.version }
   s.source_files = "GeneralLocalization/*"
-
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 end
 
 

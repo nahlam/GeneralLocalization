@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'GeneralLocalization'
-  s.version      = '1.0.2'
+  s.version      = '1.0.0'
   s.summary      = 'Managing Localization between English & Arabic.'
   s.homepage     = 'https://github.com/nahlam/GeneralLocalization'
   s.description  = 'Managing Localization between English & Arabic to be used in all projects. It is all about getting strings localized from default localization file or even from custom localization file name. also have date localization and numbers localization.'

@@ -15,7 +15,7 @@ extension Date {
     }
     
     public func formattedActivityDate(formatter: DateFormatter) -> String {
-        return LanguageManager.localizedFormattedActivityDate(aDate:self, formatter:formatter)
+        return LanguageManager.localizedFormattedActivityDate(aDate: self, formatter: formatter)
     }
     
     public func formattedTime(formatter: DateFormatter) -> String {
@@ -23,6 +23,6 @@ extension Date {
     }
     
     public func formattedDateOnly(formatter: DateFormatter) -> String {
-        return LanguageManager.localizedFormattedDateOnly(aDateTime:self, formatter:formatter)
+        return LanguageManager.localizedFormattedDateOnly(aDateTime: self, formatter: formatter)
     }
 }

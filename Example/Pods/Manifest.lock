@@ -1,0 +1,16 @@
+PODS:
+  - GeneralLocalization (2.0.0)
+
+DEPENDENCIES:
+  - GeneralLocalization (from `../`)
+
+EXTERNAL SOURCES:
+  GeneralLocalization:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GeneralLocalization: d8ba412a8b0000eb8eec0bb7fe47f62f4f63d556
+
+PODFILE CHECKSUM: df8f0ce4b8e9fa5e7d51bf53467337802b36d5de
+
+COCOAPODS: 1.5.3

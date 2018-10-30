@@ -8,8 +8,11 @@
 
 import Foundation
 
-
 extension Int {
+    
+    public func localized() -> String {
+        return localizedWithoutPlus()
+    }
     
     public func localizedWithoutPlus() -> String {
         return LanguageManager.localizedFormattedNumberWithoutPlus(aNum: self)

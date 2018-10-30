@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'GeneralLocalization_Example' do
+  pod 'GeneralLocalization', :path => '../'
+
+end

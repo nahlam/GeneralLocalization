@@ -1,0 +1,6 @@
+framework module GeneralLocalization {
+  umbrella header "GeneralLocalization-umbrella.h"
+
+  export *
+  module * { export * }
+}

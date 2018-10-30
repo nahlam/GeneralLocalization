@@ -1,0 +1,24 @@
+{
+  "name": "GeneralLocalization",
+  "version": "2.0.0",
+  "summary": "Managing Localization between English & Arabic.",
+  "homepage": "https://github.com/nahlam/GeneralLocalization",
+  "description": "Managing Localization between English & Arabic to be used in all projects. It is all about getting strings localized from default localization file or even from custom localization file name. also have date localization and numbers localization.",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nahla Mortad": "nahla.mortada@gmail.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/nahlam/GeneralLocalization.git",
+    "tag": "2.0.0"
+  },
+  "source_files": "GeneralLocalization/Classes/**/*",
+  "swift_version": "4.2"
+}

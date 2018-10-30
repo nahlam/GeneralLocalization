@@ -8,10 +8,19 @@
 
 import Foundation
 
-
 extension Float {
     
     public func localizedCurrency(symbol: String) -> String {
         return LanguageManager.localizedFormattedCurrency(aNum: self, symbol: symbol)
+    }
+    
+    public func localized() -> String {
+        LanguageManager.initalizeNumberFormatterFloat()
+        let formattedString = LanguageManager.customNumberFormatter?.string(for: self)
+        return formattedString ?? "\(self)"
+    }
+    
+    public func localizedWithPlus() -> String {
+        return "+\(localized())"
     }
 }
